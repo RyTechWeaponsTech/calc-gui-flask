@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    border: 1 px solid rgb(95, 89, 89);
+    border-radius: 5px;
+    background-color: rgb(97, 97, 97);
+    box-shadow: 0 2px 5px #000000;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group h2 {
+    color: rgb(1, 81, 1);
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+select {
+    padding: 5px;
+    background-color: cyan;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px rgb(0, 151, 151);
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(0, 255, 0);
+    border-radius: 7px;
+    box-shadow: 0 5px 5px rgb(0, 152, 0);
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 0.2s ease-in-out;
+    background-color: rgb(0, 104, 0);
+    cursor: pointer;
+}
+
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 3px solid rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+    border: 3px solid black;
+    cursor: pointer;
+    input-security: auto;
+}

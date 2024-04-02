@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Two Input Calculator</title>
+        <link 
+        rel="shortcut icon"
+        href="https://static.wikia.nocookie.net/cooler-item-asylum/images/7/72/Slungus_classic.jpg/revision/latest/scale-to-width-down/250?cb=20230309045751"
+        type="image/x-con"
+        />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Two Input Calculator</h1>
+        <div class="container">
+            <div class="form-group">
+                <form method="POST">
+                    <label for="first-input">
+                        <input placeholder="Enter your number here!" type="number" name="num1" required/>
+                    </label>
+                    <select name="operation" required>
+                        <option selected disabled>Select the operator</option>
+                        <option value="addition">+</option>
+                        <option value="substraction">-</option>
+                        <option value="multiplier">*</option>
+                        <option value="division">/</option>
+                        <option value="floor_division">//</option>
+                        <option value="modulus">%</option>
+                        <option value="sqrt">&Sqrt;</option>
+                        <option value="cube_root">&#8731;</option>
+                    </select>
+                    <label for="second-input">
+                        <input placeholder="Enter your number here!" type="number" name="num2" required />
+                    </label>
+                    <button type="submit">Submit</button>
+                </form>
+                <h2>Result: {{ result }}</h2>
+            </div>
+        </div>
+    </body>    
+</html>
